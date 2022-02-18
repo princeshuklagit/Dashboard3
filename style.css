@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.navigation{
+    width: 100%;
+    height: 100vh;
+    background:#191c24;
+}
+
+.content{
+    width: 50%;
+    height: 100vh;
+    background: black;
+}
+
+       /* user profile */
+.user-img{
+float: left;
+  }
+
+
+.user-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.user-detailes{
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.user-detailes p{
+    color: #6c7293;
+    font-size: 13px;
+    margin-top: -10px;
+}
+
+.profile-setting{
+    float: left;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.profile-setting .dot{
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #6c7293;
+    
+}
+
+.dot-2{
+    margin-top: -13px;
+}
+
+.dot-3{
+    margin-top: -13px;
+}
+
+.profile-setting-panal{
+    width: 12vw;
+    height: 21vh;
+    background: #191c24;
+    border: 1px solid #6c7293;
+    clear: both;
+    left: 150px;
+    top: 70px;
+    position: fixed;
+    z-index: 99;
+}
+
+.panal-icon{
+    width: 50% !important;
+    height: 100% !important;
+    
+    border-radius: 50%;
+    padding-left: 10px;
+}
+
+.panal-title span{
+    font-size: 13px;
+}
+
+.hr{
+    background-color: #6c7293;
+}
+
+.navigation-title{
+    padding-top: 25px !important;
+    padding-left: 20px;
+    clear: both;
+}
+
+.list-items-d{
+    background-color: #0f1015 !important;
+    cursor: pointer;
+    padding: 5px 0;
+    border-left: 5px solid rgb(0, 92, 128);
+    border-radius: 0 50px 50px 0;
+}
+.list-items{
+    padding: 5px 0;
+}
+.list-items:hover{
+    background-color: #0f1015 !important;
+    cursor: pointer;
+    border-radius: 0 50px 50px 0;
+    transition: all 0.3s ease-in;
+}
+
+.navigation-title h6
+{
+    color: #6c7293 !important;
+}
+
+.list-icon-div{
+    background: yellow;
+    border-radius: 50%;
+}
+
+.list-icon{
+    /* background: yellow; */
+}
+
+.list-icon i{
+    /* color: rgb(15, 112, 156); */
+}
+
+.list-title h6{
+    color: #6c7293;
+}
+
+
+/* content section start */
+
+/* First card start */
+
+.first-card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.first-card-i{
+    width: 18vw;
+    height: 20vh;
+    background: #191c24;
+    float: left;
+    border-radius: 10px;
+    clear: both;
+}
+
+.card-title-i p{
+    color: #6c7293;
+}
+
+.card-icon-i{
+    background-color: rgba(8, 121, 8, 0.3);
+    border-radius: 10px;
+}
